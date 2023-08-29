@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelCrafters - Portfolio</title>
+    
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- Include Foundation CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/css/foundation.min.css">
+    
+    <!-- Include Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    
+    <!-- Include Semantic UI CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.2/semantic.min.css">
+    
+    <!-- Include Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <!-- Include UIKit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.5/css/uikit.min.css">
+    
+    <!-- Include Pure.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.3/pure-min.css">
+
+    <!-- Additional CSS Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap">
+    
+    <!-- Custom CSS -->
+    <style>
+        /* Center vertically in Bootstrap navigation */
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Apply custom font to the PixelCrafters title */
+        .navbar-brand h1 {
+            font-family: 'Indie Flower', cursive;
+            font-size: 24px;
+            margin: 0;
+        }
+
+        /* Ensure all cards have the same height */
+        .custom-card {
+            height: 100%; /* You can adjust this value to control the card height */
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Bootstrap Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <h1>PixelCrafters</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Portfolio Page Header -->
+    <header class="callout primary text-center">
+        <div class="container">
+            <h2 class="display-4">Our Portfolio</h2>
+            <p class="lead">Check out our recent projects</p>
+        </div>
+    </header>
+
+    <!-- Portfolio Projects -->
+    <section class="container my-5">
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card custom-card"> <!-- Add the custom-card class here -->
+                    <img src="https://via.placeholder.com/400x250" alt="Project 1" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Project 1</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis, odio eget rhoncus elementum, mauris nulla lacinia risus.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card custom-card"> <!-- Add the custom-card class here -->
+                    <img src="https://via.placeholder.com/400x250" alt="Project 2" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Project 2</h3>
+                        <p class="card-text">Sed vel elit eu nulla bibendum vehicula. Suspendisse potenti. Vivamus hendrerit vel nulla vitae mattis.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card custom-card"> <!-- Add the custom-card class here -->
+                    <img src="https://via.placeholder.com/400x250" alt="Project 3" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Project 3</h3>
+                        <p class="card-text">Vivamus eu congue augue. Etiam pretium eget tellus eget bibendum. Aenean mattis aliquet nunc vel bibendum.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card custom-card"> <!-- Add the custom-card class here -->
+                    <img src="https://via.placeholder.com/400x250" alt="Project 4" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Project 4</h3>
+                        <p class="card-text">Pellentesque ac eros et purus congue tristique. In non ligula quis ligula dignissim iaculis.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Semantic UI Footer -->
+    <footer class="ui inverted vertical footer segment">
+        <div class="ui center aligned container">
+            <div class="ui stackable inverted divided grid">
+                <div class="three wide column">
+                    <h4 class="ui inverted header">PixelCrafters</h4>
+                    <div class="ui inverted link list">
+                        <a href="index.html" class="item">Home</a>
+                        <a href="services.html" class="item">Services</a>
+                        <a href="#" class="item">Portfolio</a>
+                        <a href="#" class="item">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Include Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
