@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelCrafters - Services</title>
+    
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- Include Foundation CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/css/foundation.min.css">
+    
+    <!-- Include Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    
+    <!-- Include Semantic UI CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.2/semantic.min.css">
+    
+    <!-- Include Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <!-- Include UIKit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.5/css/uikit.min.css">
+    
+    <!-- Include Pure.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.3/pure-min.css">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap">
+    
+    <!-- Custom CSS -->
+    <style>
+        /* Center vertically in Bootstrap navigation */
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Apply custom font to the PixelCrafters title */
+        .navbar-brand h1 {
+            font-family: 'Indie Flower', cursive;
+            font-size: 24px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <h1>PixelCrafters</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Services Page Header -->
+    <header class="callout primary text-center">
+        <div class="container">
+            <h2 class="display-4">Our Services</h2>
+            <p class="lead">Discover what we can do for you</p>
+        </div>
+    </header>
+
+    <!-- Service Sections -->
+    <section class="container my-5">
+        <!-- Service 1 - Web Design -->
+        <div class="row">
+            <div class="col-lg-6">
+                <h3 class="font-weight-bold">Web Design</h3>
+                <p>We create visually stunning and user-friendly websites tailored to your brand. Our designs are modern, responsive, and sure to impress your audience.</p>
+            </div>
+            <div class="col-lg-6">
+                <img style="width: 400px; height: 250px;" src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_2048/https://www.designhill.com/design-blog/wp-content/uploads/2014/06/website-design.jpg" alt="Web Design" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Service 2 - SEO -->
+        <div class="row mt-5">
+            <div class="col-lg-6">
+                <img style="width: 400px; height: 250px;" src="https://th.bing.com/th/id/R.39e6d77a7fc73c038a413b0132c005a1?rik=upfKPhACpfVWRw&pid=ImgRaw&r=0" alt="SEO" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+                <h3 class="font-weight-bold">Search Engine Optimization (SEO)</h3>
+                <p>Boost your online visibility with our SEO services. We'll optimize your website for search engines, helping you rank higher and attract more organic traffic.</p>
+            </div>
+        </div>
+
+        <!-- Service 3 - E-Commerce -->
+        <div class="row mt-5">
+            <div class="col-lg-6">
+                <h3 class="font-weight-bold">Graphic Design</h3>
+                <p>Our graphic designers are experts at creating stunning visuals that captivate and engage your audience. From logos to branding, we've got your design needs covered.Take your business online with our e-commerce solutions. We'll create a secure and efficient online store that drives sales and growth.</p>
+            </div>
+            <div class="col-lg-6">
+                <img style="width: 400px; height: 250px;" src="https://via.placeholder.com/400x250" alt="E-Commerce" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!-- Semantic UI Footer -->
+    <footer class="ui inverted vertical footer segment">
+        <div class="ui center aligned container">
+            <div class="ui stackable inverted divided grid">
+                <div class="three wide column">
+                    <h4 class="ui inverted header">PixelCrafters</h4>
+                    <div class="ui inverted link list">
+                        <a href="index.html" class="item">Home</a>
+                        <a href="#" class="item">Services</a>
+                        <a href="#" class="item">Portfolio</a>
+                        <a href="#" class="item">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Include Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Include Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
